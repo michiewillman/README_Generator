@@ -59,8 +59,7 @@ function generateMarkdown(data) {
   - [License] (#license)
   - [Contributing] (#contributing)
   - [Tests] (#tests)
-  - [Credits](#credits)
-  - [License](#license)
+  - [Questions] (#questions)
   
   ## Installation
   
@@ -75,7 +74,9 @@ function generateMarkdown(data) {
   ## License
   
   ${licenseSection.badge}
+
   ${data.license}
+  
   ${licenseSection.link}
   
   ## Contributing
@@ -88,7 +89,7 @@ function generateMarkdown(data) {
   
   ## Questions
   
-  If you have any questions, please open an issue or contact me via email at ${data.email}.
+  If you have any questions, please open an issue or contact me via email at [${data.email}](mailto:${data.email}).
   
   You can view my work on GitHub [here.](${data.github}).
 `;
