@@ -99,7 +99,7 @@ function generateMarkdown(data) {
   
   If you have any questions, please open an issue or contact me via email at [${data.email}](mailto:${data.email}).
   
-  You can view my work on GitHub [here.](${data.github}).
+  You can view my work on GitHub [here](${data.github}).
 `;
 }
 

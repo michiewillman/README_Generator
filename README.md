@@ -1,8 +1,8 @@
-# sdfgdsf
+# Professional README Generator
 
   ## Description
 
-  sfgsfgfg
+  When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;this last part increases the likelihood that other developers will contribute to the success of the project.
   
   ## Table of Contents
   
@@ -15,32 +15,32 @@
   
   ## Installation
   
-  sgsgsfd
+  Clone this repo from GitHub via SSH using the following command to use this application.
   
   ## Usage
   
-  sdgsdfgdsf
+  Click [here]() to watch a video walkthrough of the application.
   
-  ![Screenshot](sdfsdfsd)
+  ![Screenshot](N/A)
   
   ## License
   
-  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  Mozilla
+  MIT
   
-  For more information on this license, [click here.](https://opensource.org/license/Mozilla)
+  For more information on this license, [click here.](https://opensource.org/license/https://opensource.org/licenses/MIT)
   
   ## Contributing
   
-  sdfsdf
+  N/A
   
   ## Tests
   
-  sdfdfs
+  N/A
   
   ## Questions
   
-  If you have any questions, please open an issue or contact me via email at [sdfsdf](mailto:sdfsdf).
+  If you have any questions, please open an issue or contact me via email at [contact@michiewillman.com](mailto:contact@michiewillman.com).
   
-  You can view my work on GitHub [here.](sdfdsfsd).
+  You can view my work on GitHub [here](https://github.com/michiewillman).
