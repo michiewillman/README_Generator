@@ -32,7 +32,7 @@ const questions = [
     message: "Enter the relative path for a screenshot of your application.",
   },
   {
-    type: "select",
+    type: "list",
     name: "license",
     message: "Select the license you want to use:",
     choices: ["IBM", "ISC", "MIT", "Apache", "Mozilla"],

@@ -20,7 +20,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license) {
-    return `For more information on this license, visit: https://opensource.org/license/${license}`;
+    return `For more information on this license, [click here.](https://opensource.org/license/${license})`;
   } else {
     return "";
   }
