@@ -1,8 +1,8 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (license === "IBM") {
-    return "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)";
+  if (license === "WTFPL") {
+    return "[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)";
   } else if (license === "ISC") {
     return "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)";
   } else if (license === "MIT") {
@@ -19,8 +19,16 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (license) {
-    return `For more information on this license, [click here.](https://opensource.org/license/${license})`;
+  if (license === "WTFPL") {
+    return "http://www.wtfpl.net/about/";
+  } else if (license === "ISC") {
+    return "https://opensource.org/licenses/ISC";
+  } else if (license === "MIT") {
+    return "https://opensource.org/licenses/MIT";
+  } else if (license === "Apache") {
+    return "https://opensource.org/licenses/Apache-2.0";
+  } else if (license === "Mozilla") {
+    return "https://opensource.org/licenses/MPL-2.0";
   } else {
     return "";
   }
@@ -56,10 +64,10 @@ function generateMarkdown(data) {
   
   - [Installation](#installation)
   - [Usage](#usage)
-  - [License] (#license)
-  - [Contributing] (#contributing)
-  - [Tests] (#tests)
-  - [Questions] (#questions)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
   
   ## Installation
   
@@ -77,7 +85,7 @@ function generateMarkdown(data) {
 
   ${data.license}
   
-  ${licenseSection.link}
+  For more information on this license, [click here.](https://opensource.org/license/${licenseSection.link})
   
   ## Contributing
   
